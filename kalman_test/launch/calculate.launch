@@ -1,0 +1,3 @@
+<launch>
+    <node pkg="noisy_odom" type="noisy_odom.py" name="noisy_odom_node"></node>
+</launch>

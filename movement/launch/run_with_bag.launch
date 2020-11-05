@@ -1,0 +1,7 @@
+<launch>
+    <!-- Realsense camera from bag file -->
+    <include file="$(find realsense2_camera)/launch/rs_from_file.launch">
+        <arg name="align_depth"     value="true"/>
+        <arg name="rosbag_filename" value="/home/nano/tiny_ws/src/map/map1/map1.bag"/>
+    </include>
+</launch>
